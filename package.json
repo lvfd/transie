@@ -1,0 +1,27 @@
+{
+  "name": "transie",
+  "version": "1.0.0",
+  "description": "translate to ie",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --node-env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvfd/transie.git"
+  },
+  "author": "lvfd@acca.com.cn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvfd/transie/issues"
+  },
+  "homepage": "https://github.com/lvfd/transie#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^9.0.0",
+    "eslint-plugin-json": "^3.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
